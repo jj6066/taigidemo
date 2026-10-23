@@ -7,7 +7,7 @@ venv/
 # IDE and local settings
 .idea/
 .vscode/
-.aws/
+.aws
 .agents/
 .codex/
 
