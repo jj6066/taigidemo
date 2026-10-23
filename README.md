@@ -46,7 +46,7 @@ models/Breeze-ASR-26-fp16/model-00001-of-00002.safetensors
 models/Breeze-ASR-26-fp16/model-00002-of-00002.safetensors
 ```
 
-完整權重約 3.1 GB（2.9 GiB）。GitHub Free／Pro 每月包含 10 GiB LFS 儲存空間與 10 GiB 下載流量；下載模型會使用 repository 擁有者的流量額度。
+完整權重約 3.1 GB（2.9 GiB，原始模型是FP32, 約6.1GB））。GitHub Free／Pro 每月包含 10 GiB LFS 儲存空間與 10 GiB 下載流量；下載模型會使用 repository 擁有者的流量額度。
 
 ## 示範程式
 
