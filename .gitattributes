@@ -1,0 +1,2 @@
+models/Breeze-ASR-26-fp16/*.safetensors filter=lfs diff=lfs merge=lfs -text
+models/Breeze-ASR-26-fp16/*.safetensors.part-* filter=lfs diff=lfs merge=lfs -text
