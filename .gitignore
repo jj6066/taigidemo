@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# IDE and local settings
+.idea/
+.vscode/
+
+# Local audio recordings
+*.aac
+*.mp3
+*.m4a
+*.wav
+*.ogg
+*.flac
+
+# Downloaded model weights
+models/**/model*.safetensors
+models/**/pytorch_model*.bin
+models/**/training_args.bin
+
