@@ -7,6 +7,9 @@ venv/
 # IDE and local settings
 .idea/
 .vscode/
+.aws/
+.agents/
+.codex/
 
 # Local audio recordings
 *.aac
