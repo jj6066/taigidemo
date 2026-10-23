@@ -29,13 +29,13 @@ sudo apt update
 sudo apt install git-lfs
 git lfs install
 git clone --branch fp16-model https://github.com/jj6066/taigidemo.git
-cd taigidemo
-git lfs pull
 ```
 
 GitHub Free／Pro 的 Git LFS 單檔上限是 2 GB。第一個權重 shard 約 2.50 GB，因此拆成兩段存放；第二個 shard 保持單一檔案。下載後執行以下指令重組第一個 shard：
 
 ```bash
+
+cd taigidemo
 bash scripts/reassemble_fp16.sh
 ```
 
