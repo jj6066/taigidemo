@@ -4,6 +4,22 @@
 
 此 FP16 權重是 [MediaTek-Research/Breeze-ASR-26](https://huggingface.co/MediaTek-Research/Breeze-ASR-26) 的 FP16 版本。上游模型採用 Apache-2.0 授權，請參閱上游模型頁面的授權與使用條款。
 
+## 引用
+
+若使用此模型或 Breeze Taigi benchmark，請引用：
+
+```bibtex
+@misc{lan2026breezetaigibenchmarksmodels,
+      title={Breeze Taigi: Benchmarks and Models for Taiwanese Hokkien Speech Recognition and Synthesis},
+      author={Yu-Siang Lan and Chia-Sheng Liu and Yi-Chang Chen and Po-Chun Hsu and Allyson Chiu and Shun-Wen Lin and Da-shan Shiu and Yuan-Fu Liao},
+      year={2026},
+      eprint={2603.19259},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2603.19259},
+}
+```
+
 ## 下載模型
 
 權重使用 Git LFS 儲存。在 Ubuntu 安裝 Git LFS，然後下載 `fp16-model` 分支：
